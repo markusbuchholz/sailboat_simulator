@@ -8,7 +8,7 @@ The repository provides a consistent Docker environment with GazeoSim, Arduopilo
 
 ---
 <br>
-Expected ressults, <br>
+Expected results, <br>
 
 ![sailboat](https://github.com/user-attachments/assets/bfe3bdff-bdb4-4f41-a160-33d66d336404)
 
