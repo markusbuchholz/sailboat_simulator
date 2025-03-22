@@ -1,5 +1,9 @@
 # Sailboat Simulator
 
+The Following repository provides the simulator of Sailboat RS750 in the GazeboSim simulator.
+The simulator has been built based on the packages: [asv_sim](https://github.com/srmainwaring/asv_sim), [asv_wave_sim](https://github.com/srmainwaring/asv_wave_sim) and [rs750](https://github.com/srmainwaring/rs750).
+The repository provides a consistent Docker environment with GazeoSim, Arduopilot. 
+
 ![image](https://github.com/user-attachments/assets/2ce6fac6-3691-49eb-a9a2-d0b390212459)
 
 ---
