@@ -66,7 +66,7 @@ source gazebo_exports.sh
 ros2 launch move_blueboat mission_rs750.launch.py
 ```
 
-## Start SITL
+## Start SITL (optional)
 
 ```bash
 cd ../ardupilot
@@ -74,7 +74,23 @@ sim_vehicle.py -v Rover -f sailboat --model JSON --map --console -l 55.995415308
 ```
 
 
-## ROS 2
+## Navigate RS750
+
+In ROS 2 use the following commands (from GazeboSim launch ```Wave Control plugin```),
+
+```bash
+ros2 topic pub /main_sail_joint/cmd_pos std_msgs/msg/Float64 "{data: -5.0}"
+ros2 topic pub /fore_sail_joint/cmd_pos std_msgs/msg/Float64 "{data: 2.0}"
+ros2 topic pub /rudder_joint/cmd_pos std_msgs/msg/Float64 "{data: 3.0}"
+```
+
+In GazeboSim, use the following commands,
+
+```bash
+gz topic -t /main_sail_joint/cmd_pos -m gz.msgs.Double --pub "data: 2.0"
+gz topic -t /rudder_joint/cmd_pos -m gz.msgs.Double --pub "data: -2.0"
+gz topic -t /fore_sail_joint/cmd_pos -m gz.msgs.Double --pub "data: 2.0"
+```
 
 Available topics,
 ```bash
@@ -85,22 +101,5 @@ Available topics,
 /world/waves/model/rs750/link/base_link/sensor/imu_sensor/imu
 /world/waves/model/rs750/link/base_link/sensor/navsat_sensor/navsat
 ```
-
-Navigate RS750 using following commands (from GazeboSim launch ```Wave Control plugin```),
-
-```bash
-ros2 topic pub /main_sail_joint/cmd_pos std_msgs/msg/Float64 "{data: -5.0}"
-ros2 topic pub /fore_sail_joint/cmd_pos std_msgs/msg/Float64 "{data: 2.0}"
-ros2 topic pub /rudder_joint/cmd_pos std_msgs/msg/Float64 "{data: 3.0}"
-```
-
-## GazeboSim
-
-```bash
-gz topic -t /main_sail_joint/cmd_pos -m gz.msgs.Double --pub "data: 2.0"
-gz topic -t /rudder_joint/cmd_pos -m gz.msgs.Double --pub "data: -2.0"
-gz topic -t /fore_sail_joint/cmd_pos -m gz.msgs.Double --pub "data: 2.0"
-```
-
 
 
