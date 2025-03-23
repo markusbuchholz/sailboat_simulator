@@ -1,0 +1,1 @@
+/home/blueboat_sitl/gz_ws/src/move_blueboat/launch/launch_robot_simulation.launch.py

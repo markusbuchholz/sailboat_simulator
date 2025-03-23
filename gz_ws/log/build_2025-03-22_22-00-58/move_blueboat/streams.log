@@ -1,0 +1,69 @@
+[0.274s] Invoking command in '/home/blueboat_sitl/gz_ws/build/move_blueboat': PYTHONPATH=/home/blueboat_sitl/gz_ws/build/move_blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/blueboat_sitl/gz_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/blueboat_sitl/gz_ws/build/move_blueboat/build --no-deps symlink_data
+[0.381s] running develop
+[0.430s] running egg_info
+[0.430s] writing move_blueboat.egg-info/PKG-INFO
+[0.430s] writing dependency_links to move_blueboat.egg-info/dependency_links.txt
+[0.430s] writing entry points to move_blueboat.egg-info/entry_points.txt
+[0.430s] writing requirements to move_blueboat.egg-info/requires.txt
+[0.430s] writing top-level names to move_blueboat.egg-info/top_level.txt
+[0.431s] reading manifest file 'move_blueboat.egg-info/SOURCES.txt'
+[0.431s] writing manifest file 'move_blueboat.egg-info/SOURCES.txt'
+[0.432s] running build_ext
+[0.432s] Creating /home/blueboat_sitl/gz_ws/install/lib/python3.10/site-packages/move-blueboat.egg-link (link to .)
+[0.432s] Installing beacon_dvl_run_boat_waypoint script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.432s] Installing blue_linker_monitor script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.432s] Installing blueboat_tf_broadcaster script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.432s] Installing dp_beacon_dvl_run_boat_waypoint script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.432s] Installing dp_run script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.432s] Installing dvl_run_boat_waypoint_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.432s] Installing dynamic_rov_to_boat script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_sim_1 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_sim_2 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_sim_2_rough script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_sim_3_meas script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_sim_paper script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_wavetank_1 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_wavetank_2 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_wavetank_3 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_wavetank_4 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing dynamic_rov_to_boat_wavetank_5 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing gps_topics script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing gui_joy_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing joy_sim_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing key_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing linker_offset script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mission_dp script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mission_dp_modes script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mission_dp_one script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mission_planner_blueboat script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mpc_boat_follow_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mpc_boat_follow_rov_wavetank_sim script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mpc_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mpc_dp_boat_follow_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing mpc_dp_boat_follow_rov_without script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing odom_watchdog script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing odom_wavetank script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing odom_yaw script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing pid_boat_follow_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing pid_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing robot_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.433s] Installing run_blueboat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing run_gps_path_planner_waypoints script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing run_gps_true_way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing run_horizion_mpc script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing run_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing run_mpc script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing run_navsat_way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing run_way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing thread_dp_run_with_heading script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing thrust_allocator script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing watchdog script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing wp_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing wp_rov_to_boat script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing wp_velo_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] Installing x_linker_offset script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+[0.434s] 
+[0.434s] Installed /home/blueboat_sitl/gz_ws/build/move_blueboat
+[0.434s] running symlink_data
+[0.444s] Invoked command in '/home/blueboat_sitl/gz_ws/build/move_blueboat' returned '0': PYTHONPATH=/home/blueboat_sitl/gz_ws/build/move_blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/blueboat_sitl/gz_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/blueboat_sitl/gz_ws/build/move_blueboat/build --no-deps symlink_data

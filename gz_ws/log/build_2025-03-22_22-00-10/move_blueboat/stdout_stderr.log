@@ -1,0 +1,88 @@
+running develop
+running egg_info
+creating move_blueboat.egg-info
+writing move_blueboat.egg-info/PKG-INFO
+writing dependency_links to move_blueboat.egg-info/dependency_links.txt
+writing entry points to move_blueboat.egg-info/entry_points.txt
+writing requirements to move_blueboat.egg-info/requires.txt
+writing top-level names to move_blueboat.egg-info/top_level.txt
+writing manifest file 'move_blueboat.egg-info/SOURCES.txt'
+package init file 'move_blueboat/__init__.py' not found (or not a regular file)
+reading manifest file 'move_blueboat.egg-info/SOURCES.txt'
+writing manifest file 'move_blueboat.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/blueboat_sitl/gz_ws/install/lib/python3.10/site-packages/move-blueboat.egg-link (link to .)
+Installing beacon_dvl_run_boat_waypoint script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing blue_linker_monitor script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing blueboat_tf_broadcaster script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dp_beacon_dvl_run_boat_waypoint script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dp_run script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dvl_run_boat_waypoint_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_sim_1 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_sim_2 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_sim_2_rough script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_sim_3_meas script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_sim_paper script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_wavetank_1 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_wavetank_2 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_wavetank_3 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_wavetank_4 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing dynamic_rov_to_boat_wavetank_5 script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing gps_topics script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing gui_joy_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing joy_sim_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing key_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing linker_offset script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mission_dp script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mission_dp_modes script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mission_dp_one script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mission_planner_blueboat script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mpc_boat_follow_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mpc_boat_follow_rov_wavetank_sim script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mpc_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mpc_dp_boat_follow_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing mpc_dp_boat_follow_rov_without script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing odom_watchdog script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing odom_wavetank script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing odom_yaw script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing pid_boat_follow_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing pid_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing robot_controller script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_blueboat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_gps_path_planner_waypoints script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_gps_true_way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_horizion_mpc script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_mpc script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_navsat_way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing run_way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing thread_dp_run_with_heading script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing thrust_allocator script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing watchdog script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing way_controller_for_boat_mission script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing wp_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing wp_rov_to_boat script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing wp_velo_rov script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+Installing x_linker_offset script to /home/blueboat_sitl/gz_ws/install/lib/move_blueboat
+
+Installed /home/blueboat_sitl/gz_ws/build/move_blueboat
+running symlink_data
+creating /home/blueboat_sitl/gz_ws/install/share
+creating /home/blueboat_sitl/gz_ws/install/share/ament_index
+creating /home/blueboat_sitl/gz_ws/install/share/ament_index/resource_index
+creating /home/blueboat_sitl/gz_ws/install/share/ament_index/resource_index/packages
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/resource/move_blueboat -> /home/blueboat_sitl/gz_ws/install/share/ament_index/resource_index/packages
+creating /home/blueboat_sitl/gz_ws/install/share/move_blueboat
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/package.xml -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat
+creating /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/mission_catamaran.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/multirobot_mission_simulation.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/mission_rs750.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/manual_control_boat_sim.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/launch_rov_alpha.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/rov_launch_mission_simulation.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/launch_robot_simulation_with_rviz.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/launch_robot_simulation.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/wavetank_launch_mission_simulation.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch
+symbolically linking /home/blueboat_sitl/gz_ws/build/move_blueboat/launch/launch_mission_simulation.launch.py -> /home/blueboat_sitl/gz_ws/install/share/move_blueboat/launch

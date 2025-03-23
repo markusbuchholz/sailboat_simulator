@@ -1,0 +1,173 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  2%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target gz-waves1[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  4%] Built target gtest_main
+[ 26%] Built target gz-waves1
+[35m[1mConsolidate compiler generated dependencies of target UNIT_WaveSpreadingFunction_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_EigenFFTW_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_MeshTools_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_CGAL_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_Algorithm_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimDisplacements[0m
+[35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_EigenReturnByValue[0m
+[35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimElevationAt[0m
+[35m[1mConsolidate compiler generated dependencies of target gz-waves1-dynamic-geometry-system[0m
+[35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_WaveSpectrumECKV[0m
+[35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRegularWaveSimDisplacements[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_TriangulatedGrid_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target PLOT_LinearRandomFFTWaves[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_LinearRandomFFTWaveSimulation_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_Wavefield_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target PLOT_GnuPlotExample[0m
+[35m[1mConsolidate compiler generated dependencies of target PLOT_WaveSpectrum[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_LinearRegularWaveSimulation_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_Physics_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_Geometry_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_Grid_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target gz-waves1-waves-model-system[0m
+[35m[1mConsolidate compiler generated dependencies of target UNIT_WaveSpectrum_TEST[0m
+[35m[1mConsolidate compiler generated dependencies of target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes[0m
+[35m[1mConsolidate compiler generated dependencies of target PLOT_LinearRandomWaves[0m
+[35m[1mConsolidate compiler generated dependencies of target gz-waves1-hydrodynamics-system[0m
+[35m[1mConsolidate compiler generated dependencies of target PLOT_LinearRegularWaves[0m
+[ 29%] Built target UNIT_EigenFFTW_TEST
+[ 30%] Built target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes
+[ 31%] Built target UNIT_WaveSpreadingFunction_TEST
+[35m[1mConsolidate compiler generated dependencies of target gz-waves1-rendering[0m
+[ 32%] Built target UNIT_Algorithm_TEST
+[ 34%] Built target PERFORMANCE_EigenReturnByValue
+[ 36%] Built target PERFORMANCE_LinearRegularWaveSimDisplacements
+[ 38%] Built target PERFORMANCE_WaveSpectrumECKV
+[ 40%] Built target PERFORMANCE_LinearRandomFFTWaveSimElevationAt
+[ 43%] Built target PERFORMANCE_LinearRandomFFTWaveSimDisplacements
+[ 45%] Built target UNIT_WaveSpectrum_TEST
+[ 48%] Built target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes
+[ 49%] Built target UNIT_LinearRandomFFTWaveSimulation_TEST
+[ 53%] Built target PLOT_WaveSpectrum
+[ 53%] Built target PLOT_LinearRandomFFTWaves
+[ 55%] Built target gz-waves1-dynamic-geometry-system
+[ 58%] Built target PLOT_LinearRandomWaves
+[ 59%] Built target PLOT_GnuPlotExample
+[ 61%] Built target PLOT_LinearRegularWaves
+[ 63%] Built target UNIT_Grid_TEST
+[ 65%] Built target gz-waves1-waves-model-system
+[ 67%] Built target gz-waves1-hydrodynamics-system
+[ 69%] Built target UNIT_Physics_TEST
+[ 72%] Built target UNIT_CGAL_TEST
+[ 76%] Built target UNIT_Wavefield_TEST
+[ 76%] Built target UNIT_TriangulatedGrid_TEST
+[ 78%] Built target UNIT_Geometry_TEST
+[ 80%] Built target UNIT_MeshTools_TEST
+[ 81%] Built target UNIT_LinearRegularWaveSimulation_TEST
+[ 91%] Built target gz-waves1-rendering
+[35m[1mConsolidate compiler generated dependencies of target gz-waves1-waves-visual-system[0m
+[35m[1mConsolidate compiler generated dependencies of target gz-waves1-rendering-ogre2[0m
+[ 93%] Built target gz-waves1-waves-visual-system
+[100%] Built target gz-waves1-rendering-ogre2
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/detail/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1.so.1.0.0
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1.so.1
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1.so
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/gz-waves1.pc
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/gz-waves1-dynamic-geometry-system.pc
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1.0.0
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/gz-waves1-hydrodynamics-system.pc
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/rendering/detail/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/rendering/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-rendering.so.1.0.0
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-rendering.so.1
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-rendering.so
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/gz-waves1-rendering.pc
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1.0.0
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/gz-waves1-rendering-ogre2.pc
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1.0.0
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-waves-visual-system.so
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/gz-waves1-waves-visual-system.pc
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/Export.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1.0.0
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libgz-waves1-waves-model-system.so
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config-version.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/gz-waves1-waves-model-system.pc
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/components/Wavefield.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Algorithm.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/CGALTypes.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Convert.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Geometry.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Grid.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/MeshTools.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/OceanTile.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/PhysicalConstants.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Physics.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/TriangulatedGrid.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Types.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Utilities.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/WaveParameters.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/WaveSimulation.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/WaveSpectrum.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/Wavefield.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/WavefieldSampler.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/config.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/waves1/gz/waves/components.hh
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/bin/PLOT_GnuPlotExample
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/bin/PLOT_LinearRandomFFTWaves
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/bin/PLOT_LinearRandomWaves
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/bin/PLOT_LinearRegularWaves
+-- Up-to-date: /home/blueboat_sitl/gz_ws/install/bin/PLOT_WaveSpectrum

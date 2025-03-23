@@ -1,0 +1,438 @@
+[0.009s] Invoking command in '/home/blueboat_sitl/gz_ws/build/asv_sim2': /usr/bin/cmake /home/blueboat_sitl/gz_ws/src/asv_sim/asv_sim_gazebo_plugins -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_INSTALL_PREFIX=/home/blueboat_sitl/gz_ws/install
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.073s] -- The CXX compiler identification is GNU 11.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.120s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.122s] -- Detecting CXX compiler ABI info
+[0.164s] -- Detecting CXX compiler ABI info - done
+[0.167s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.168s] -- Detecting CXX compile features
+[0.168s] -- Detecting CXX compile features - done
+[0.173s] -- asv_sim2 version 2.0.0
+[0.173s] -- Operating system is Linux
+[0.175s] -- Found CPack generators: DEB
+[0.180s] -- Looking for gz-math7 -- found version 7.5.1
+[0.181s] -- Searching for dependencies of gz-math7
+[0.183s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.183s] -- Searching for dependencies of gz-utils2
+[0.183s] -- Searching for <gz-math7> component [eigen3]
+[0.186s] -- Looking for gz-math7-eigen3 -- found version 7.5.1
+[0.186s] -- Searching for dependencies of gz-math7-eigen3
+[0.191s] -- Looking for gz-math7 - found
+[0.191s] 
+[0.194s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.194s] -- Searching for dependencies of gz-plugin2
+[0.194s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.194s] -- Searching for dependencies of gz-utils2
+[0.194s] -- Searching for <gz-utils2> component [cli]
+[0.196s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[0.197s] -- Searching for dependencies of gz-utils2-cli
+[0.197s] -- Searching for <gz-plugin2> component [loader]
+[0.199s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[0.199s] -- Searching for dependencies of gz-plugin2-loader
+[0.200s] -- Searching for <gz-plugin2> component [register]
+[0.202s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[0.202s] -- Searching for dependencies of gz-plugin2-register
+[0.202s] -- Looking for gz-plugin2 - found
+[0.202s] 
+[0.205s] -- Looking for gz-common5 -- found version 5.7.1
+[0.205s] -- Searching for dependencies of gz-common5
+[0.205s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.205s] -- Looking for dlfcn.h - found
+[0.208s] -- Looking for libdl - found
+[0.209s] -- Found DL: TRUE  
+[0.212s] -- Checking for module 'uuid'
+[0.220s] --   Found uuid, version 2.37.2
+[0.241s] -- Found UUID: TRUE  
+[0.242s] -- Searching for <gz-common5> component [graphics]
+[0.245s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[0.245s] -- Searching for dependencies of gz-common5-graphics
+[0.246s] -- Looking for gz-math7 -- found version 7.5.1
+[0.251s] -- Found GzAssimp: TRUE (found version "5.2.0") 
+[0.251s] -- Searching for <gz-common5> component [events]
+[0.253s] -- Looking for gz-common5-events -- found version 5.7.1
+[0.254s] -- Searching for dependencies of gz-common5-events
+[0.254s] -- Looking for gz-math7 -- found version 7.5.1
+[0.254s] -- Looking for gz-common5 - found
+[0.254s] 
+[0.256s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.257s] -- Searching for dependencies of gz-msgs9
+[0.357s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.358s] -- Looking for gz-math7 -- found version 7.5.1
+[0.361s] -- Checking for module 'tinyxml2'
+[0.370s] --   Found tinyxml2, version 9.0.0
+[0.390s] -- Looking for gz-msgs9 - found
+[0.390s] 
+[0.395s] -- Looking for gz-transport12 -- found version 12.2.2
+[0.395s] -- Searching for dependencies of gz-transport12
+[0.423s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.425s] -- Checking for module 'libzmq >= 4'
+[0.435s] --   Found libzmq , version 4.3.4
+[0.458s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.462s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.463s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.463s] -- Looking for gz-transport12 - found
+[0.463s] 
+[0.468s] -- Looking for gz-sensors7 -- found version 7.3.1
+[0.468s] -- Searching for dependencies of gz-sensors7
+[0.485s] -- Looking for gz-math7 -- found version 7.5.1
+[0.485s] -- Looking for gz-common5 -- found version 5.7.1
+[0.486s] -- Searching for dependencies of gz-common5
+[0.486s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.486s] -- Looking for dlfcn.h - found
+[0.486s] -- Looking for libdl - found
+[0.491s] -- Searching for <gz-common5> component [profiler]
+[0.494s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[0.494s] -- Searching for dependencies of gz-common5-profiler
+[0.494s] -- Looking for gz-transport12 -- found version 12.2.2
+[0.497s] -- Looking for gz-rendering7 -- found version 7.5.0
+[0.497s] -- Searching for dependencies of gz-rendering7
+[0.497s] -- Looking for gz-math7 -- found version 7.5.1
+[0.497s] -- Looking for gz-common5 -- found version 5.7.1
+[0.497s] -- Searching for dependencies of gz-common5
+[0.498s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.498s] -- Looking for dlfcn.h - found
+[0.498s] -- Looking for libdl - found
+[0.501s] -- Searching for <gz-common5> component [graphics]
+[0.501s] -- Searching for <gz-common5> component [events]
+[0.502s] -- Searching for <gz-common5> component [geospatial]
+[0.504s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[0.504s] -- Searching for dependencies of gz-common5-geospatial
+[0.504s] -- Looking for gz-math7 -- found version 7.5.1
+[0.505s] -- Looking for gz-common5 -- found version 5.7.1
+[0.505s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.505s] -- Searching for dependencies of gz-plugin2
+[0.505s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.505s] -- Searching for <gz-plugin2> component [all]
+[0.508s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[0.508s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.509s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.511s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[0.511s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.514s] -- Looking for sdformat13 -- found version 13.9.0
+[0.514s] -- Searching for dependencies of sdformat13
+[0.517s] -- Looking for gz-math7 -- found version 7.5.1
+[0.517s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.517s] -- Looking for gz-sensors7 - found
+[0.517s] 
+[0.520s] -- Looking for gz-sim7 -- found version 7.9.0
+[0.520s] -- Searching for dependencies of gz-sim7
+[0.520s] -- Looking for sdformat13 -- found version 13.9.0
+[0.520s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.521s] -- Looking for gz-transport12 -- found version 12.2.2
+[0.521s] -- Searching for dependencies of gz-transport12
+[0.546s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.548s] -- Checking for module 'libzmq >= 4'
+[0.557s] --   Found libzmq , version 4.3.4
+[0.585s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.585s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.585s] -- Searching for <gz-transport12> component [log]
+[0.588s] -- Looking for gz-transport12-log -- found version 12.2.2
+[0.588s] -- Searching for dependencies of gz-transport12-log
+[0.588s] -- Searching for <gz-transport12> component [parameters]
+[0.591s] -- Looking for gz-transport12-parameters -- found version 12.2.2
+[0.591s] -- Searching for dependencies of gz-transport12-parameters
+[0.591s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.591s] -- Looking for gz-common5 -- found version 5.7.1
+[0.592s] -- Searching for dependencies of gz-common5
+[0.592s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.592s] -- Looking for dlfcn.h - found
+[0.592s] -- Looking for libdl - found
+[0.596s] -- Searching for <gz-common5> component [profiler]
+[0.596s] -- Searching for <gz-common5> component [events]
+[0.596s] -- Searching for <gz-common5> component [av]
+[0.598s] -- Looking for gz-common5-av -- found version 5.7.1
+[0.598s] -- Searching for dependencies of gz-common5-av
+[0.601s] -- Checking for module 'libswscale'
+[0.610s] --   Found libswscale, version 5.9.100
+[0.632s] -- Found SWSCALE: TRUE  
+[0.635s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.644s] --   Found libavdevice , version 58.13.100
+[0.667s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[0.670s] -- Checking for module 'libavformat'
+[0.678s] --   Found libavformat, version 58.76.100
+[0.699s] -- Found AVFORMAT: TRUE  
+[0.703s] -- Checking for module 'libavcodec'
+[0.711s] --   Found libavcodec, version 58.134.100
+[0.732s] -- Found AVCODEC: TRUE  
+[0.736s] -- Checking for module 'libavutil'
+[0.743s] --   Found libavutil, version 56.70.100
+[0.763s] -- Found AVUTIL: TRUE  
+[0.764s] -- Searching for <gz-common5> component [io]
+[0.768s] -- Looking for gz-common5-io -- found version 5.7.1
+[0.769s] -- Searching for dependencies of gz-common5-io
+[0.773s] -- Looking for gz-fuel_tools8 -- found version 8.2.0
+[0.773s] -- Searching for dependencies of gz-fuel_tools8
+[0.823s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[0.829s] -- Checking for module 'jsoncpp'
+[0.837s] --   Found jsoncpp, version 1.9.5
+[0.857s] -- Found JSONCPP: TRUE  
+[0.862s] -- Checking for module 'libzip'
+[0.871s] --   Found libzip, version 1.7.3
+[0.891s] -- Found ZIP: TRUE  
+[0.891s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.891s] -- Looking for gz-common5 -- found version 5.7.1
+[0.891s] -- Searching for dependencies of gz-common5
+[0.892s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.892s] -- Looking for dlfcn.h - found
+[0.892s] -- Looking for libdl - found
+[0.896s] -- Searching for <gz-common5> component [testing]
+[0.898s] -- Looking for gz-common5-testing -- found version 5.7.1
+[0.898s] -- Searching for dependencies of gz-common5-testing
+[0.899s] -- Looking for gz-math7 -- found version 7.5.1
+[0.899s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.902s] -- Looking for gz-gui7 -- found version 7.2.2
+[0.902s] -- Searching for dependencies of gz-gui7
+[0.917s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.917s] -- Looking for gz-math7 -- found version 7.5.1
+[0.917s] -- Looking for gz-common5 -- found version 5.7.1
+[0.918s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.918s] -- Looking for gz-transport12 -- found version 12.2.2
+[0.918s] -- Looking for gz-rendering7 -- found version 7.5.0
+[0.918s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.930s] -- Looking for gz-physics6 -- found version 6.7.0
+[0.930s] -- Searching for dependencies of gz-physics6
+[0.931s] -- Looking for gz-common5 -- found version 5.7.1
+[0.931s] -- Looking for gz-math7 -- found version 7.5.1
+[0.931s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.931s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.932s] -- Searching for <gz-physics6> component [heightmap]
+[0.934s] -- Looking for gz-physics6-heightmap -- found version 6.7.0
+[0.934s] -- Searching for dependencies of gz-physics6-heightmap
+[0.934s] -- Looking for gz-common5 -- found version 5.7.1
+[0.934s] -- Searching for <gz-physics6> component [mesh]
+[0.937s] -- Looking for gz-physics6-mesh -- found version 6.7.0
+[0.937s] -- Searching for dependencies of gz-physics6-mesh
+[0.937s] -- Looking for gz-common5 -- found version 5.7.1
+[0.937s] -- Searching for <gz-physics6> component [sdf]
+[0.939s] -- Looking for gz-physics6-sdf -- found version 6.7.0
+[0.940s] -- Searching for dependencies of gz-physics6-sdf
+[0.940s] -- Looking for sdformat13 -- found version 13.9.0
+[0.940s] -- Looking for gz-sensors7 -- found version 7.3.1
+[0.940s] -- Searching for dependencies of gz-sensors7
+[0.953s] -- Looking for gz-math7 -- found version 7.5.1
+[0.953s] -- Looking for gz-common5 -- found version 5.7.1
+[0.953s] -- Looking for gz-transport12 -- found version 12.2.2
+[0.953s] -- Looking for gz-rendering7 -- found version 7.5.0
+[0.953s] -- Looking for gz-msgs9 -- found version 9.5.1
+[0.954s] -- Looking for sdformat13 -- found version 13.9.0
+[0.954s] -- Searching for <gz-sensors7> component [air_pressure]
+[0.956s] -- Looking for gz-sensors7-air_pressure -- found version 7.3.1
+[0.956s] -- Searching for dependencies of gz-sensors7-air_pressure
+[0.956s] -- Searching for <gz-sensors7> component [air_speed]
+[0.958s] -- Looking for gz-sensors7-air_speed -- found version 7.3.1
+[0.959s] -- Searching for dependencies of gz-sensors7-air_speed
+[0.959s] -- Searching for <gz-sensors7> component [altimeter]
+[0.961s] -- Looking for gz-sensors7-altimeter -- found version 7.3.1
+[0.961s] -- Searching for dependencies of gz-sensors7-altimeter
+[0.962s] -- Searching for <gz-sensors7> component [imu]
+[0.964s] -- Looking for gz-sensors7-imu -- found version 7.3.1
+[0.964s] -- Searching for dependencies of gz-sensors7-imu
+[0.964s] -- Searching for <gz-sensors7> component [force_torque]
+[0.966s] -- Looking for gz-sensors7-force_torque -- found version 7.3.1
+[0.967s] -- Searching for dependencies of gz-sensors7-force_torque
+[0.967s] -- Searching for <gz-sensors7> component [logical_camera]
+[0.970s] -- Looking for gz-sensors7-logical_camera -- found version 7.3.1
+[0.970s] -- Searching for dependencies of gz-sensors7-logical_camera
+[0.971s] -- Searching for <gz-sensors7> component [magnetometer]
+[0.973s] -- Looking for gz-sensors7-magnetometer -- found version 7.3.1
+[0.973s] -- Searching for dependencies of gz-sensors7-magnetometer
+[0.974s] -- Searching for <gz-sensors7> component [navsat]
+[0.976s] -- Looking for gz-sensors7-navsat -- found version 7.3.1
+[0.976s] -- Searching for dependencies of gz-sensors7-navsat
+[0.976s] -- Searching for <gz-sensors7> component [rendering]
+[0.979s] -- Looking for gz-sensors7-rendering -- found version 7.3.1
+[0.979s] -- Searching for dependencies of gz-sensors7-rendering
+[0.979s] -- Searching for <gz-sensors7> component [lidar]
+[0.982s] -- Looking for gz-sensors7-lidar -- found version 7.3.1
+[0.982s] -- Searching for dependencies of gz-sensors7-lidar
+[0.982s] -- Looking for gz-sensors7 -- found version 7.3.1
+[0.983s] -- Searching for <gz-sensors7> component [gpu_lidar]
+[0.985s] -- Looking for gz-sensors7-gpu_lidar -- found version 7.3.1
+[0.985s] -- Searching for dependencies of gz-sensors7-gpu_lidar
+[0.985s] -- Looking for gz-sensors7 -- found version 7.3.1
+[0.986s] -- Searching for <gz-sensors7> component [camera]
+[0.988s] -- Looking for gz-sensors7-camera -- found version 7.3.1
+[0.988s] -- Searching for dependencies of gz-sensors7-camera
+[0.988s] -- Looking for gz-sensors7 -- found version 7.3.1
+[0.989s] -- Searching for <gz-sensors7> component [boundingbox_camera]
+[0.991s] -- Looking for gz-sensors7-boundingbox_camera -- found version 7.3.1
+[0.991s] -- Searching for dependencies of gz-sensors7-boundingbox_camera
+[0.991s] -- Searching for <gz-sensors7> component [segmentation_camera]
+[0.994s] -- Looking for gz-sensors7-segmentation_camera -- found version 7.3.1
+[0.994s] -- Searching for dependencies of gz-sensors7-segmentation_camera
+[0.994s] -- Searching for <gz-sensors7> component [depth_camera]
+[0.997s] -- Looking for gz-sensors7-depth_camera -- found version 7.3.1
+[0.997s] -- Searching for dependencies of gz-sensors7-depth_camera
+[0.997s] -- Looking for gz-sensors7 -- found version 7.3.1
+[0.997s] -- Searching for <gz-sensors7> component [rgbd_camera]
+[1.000s] -- Looking for gz-sensors7-rgbd_camera -- found version 7.3.1
+[1.000s] -- Searching for dependencies of gz-sensors7-rgbd_camera
+[1.000s] -- Looking for gz-sensors7 -- found version 7.3.1
+[1.000s] -- Searching for <gz-sensors7> component [thermal_camera]
+[1.003s] -- Looking for gz-sensors7-thermal_camera -- found version 7.3.1
+[1.003s] -- Searching for dependencies of gz-sensors7-thermal_camera
+[1.003s] -- Looking for gz-sensors7 -- found version 7.3.1
+[1.003s] -- Searching for <gz-sensors7> component [wide_angle_camera]
+[1.006s] -- Looking for gz-sensors7-wide_angle_camera -- found version 7.3.1
+[1.006s] -- Searching for dependencies of gz-sensors7-wide_angle_camera
+[1.006s] -- Looking for gz-rendering7 -- found version 7.5.0
+[1.006s] -- Looking for gz-math7 -- found version 7.5.1
+[1.007s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.020s] -- Looking for gz-sim7 - found
+[1.020s] 
+[1.020s] -- Looking for sdformat13 -- found version 13.9.0
+[1.020s] -- Looking for sdformat13 - found
+[1.020s] 
+[1.020s] -- Compiling against Gazebo Garden
+[1.625s] -- 
+[1.625s] -- Searching for host SSE information
+[1.646s] -- SSE2 found
+[1.646s] -- SSE3 found
+[1.646s] -- SSE4.1 found
+[1.646s] -- SSE4.2 found
+[1.658s] -- Configuring library: asv_sim2-anemometer-system
+[1.659s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.707s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.707s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.755s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.756s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.806s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.808s] -- Configuring library: asv_sim2-foil-lift-drag-system
+[1.810s] -- Configuring library: asv_sim2-mooring-system
+[1.811s] -- Configuring library: asv_sim2-sail-lift-drag-system
+[1.813s] -- Configuring library: asv_sim2-sail-position-controller-system
+[1.815s] -- Configuring library: asv_sim2-wind-system
+[1.816s] -- Configuring library: asv_sim2
+[1.818s] -- Adding 1 UNIT tests
+[1.983s] -- Adding codecheck target
+[1.983s] -- Build configuration successful
+[1.983s] -- Build type: RelWithDebInfo
+[1.983s] -- Install prefix: /home/blueboat_sitl/gz_ws/install
+[1.984s] -- Configuring done
+[2.008s] -- Generating done
+[2.016s] -- Build files have been written to: /home/blueboat_sitl/gz_ws/build/asv_sim2
+[2.023s] Invoked command in '/home/blueboat_sitl/gz_ws/build/asv_sim2' returned '0': /usr/bin/cmake /home/blueboat_sitl/gz_ws/src/asv_sim/asv_sim_gazebo_plugins -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_INSTALL_PREFIX=/home/blueboat_sitl/gz_ws/install
+[2.024s] Invoking command in '/home/blueboat_sitl/gz_ws/build/asv_sim2': /usr/bin/cmake --build /home/blueboat_sitl/gz_ws/build/asv_sim2 -- -j32 -l32
+[2.057s] [  4%] [32mBuilding CXX object src/CMakeFiles/asv_sim2.dir/LiftDragModel.cc.o[0m
+[2.057s] [  9%] [32mBuilding CXX object src/CMakeFiles/asv_sim2.dir/Utilities.cc.o[0m
+[2.057s] [ 14%] [32mBuilding CXX object test/gtest_vendor/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.600s] [ 19%] [32m[1mLinking CXX shared library ../lib/libasv_sim2.so[0m
+[4.698s] [ 19%] Built target asv_sim2
+[4.711s] [ 23%] [32mBuilding CXX object src/systems/mooring/CMakeFiles/asv_sim2-mooring-system.dir/Mooring.cc.o[0m
+[4.711s] [ 28%] [32mBuilding CXX object src/systems/foil_lift_drag/CMakeFiles/asv_sim2-foil-lift-drag-system.dir/FoilLiftDrag.cc.o[0m
+[4.712s] [ 33%] [32mBuilding CXX object src/systems/sail_lift_drag/CMakeFiles/asv_sim2-sail-lift-drag-system.dir/SailLiftDrag.cc.o[0m
+[4.712s] [ 38%] [32mBuilding CXX object src/systems/sail_position_controller/CMakeFiles/asv_sim2-sail-position-controller-system.dir/SailPositionController.cc.o[0m
+[4.713s] [ 42%] [32mBuilding CXX object src/systems/wind/CMakeFiles/asv_sim2-wind-system.dir/Wind.cc.o[0m
+[4.713s] [ 47%] [32mBuilding CXX object src/systems/anemometer/CMakeFiles/asv_sim2-anemometer-system.dir/Anemometer.cc.o[0m
+[8.011s] [ 52%] [32m[1mLinking CXX shared library ../../../lib/libasv_sim2-foil-lift-drag-system.so[0m
+[8.121s] [ 52%] Built target asv_sim2-foil-lift-drag-system
+[8.970s] [ 57%] [32m[1mLinking CXX shared library ../../../lib/libasv_sim2-sail-lift-drag-system.so[0m
+[9.148s] [ 57%] Built target asv_sim2-sail-lift-drag-system
+[9.229s] [ 61%] [32m[1mLinking CXX shared library ../../../lib/libasv_sim2-wind-system.so[0m
+[9.361s] [ 61%] Built target asv_sim2-wind-system
+[9.420s] [ 66%] [32m[1mLinking CXX shared library ../../../lib/libasv_sim2-sail-position-controller-system.so[0m
+[9.553s] [ 66%] Built target asv_sim2-sail-position-controller-system
+[10.060s] [ 71%] [32m[1mLinking CXX static library ../../lib/libgtest.a[0m
+[10.124s] [ 71%] Built target gtest
+[10.141s] [ 76%] [32mBuilding CXX object test/gtest_vendor/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.628s] [ 80%] [32m[1mLinking CXX static library ../../lib/libgtest_main.a[0m
+[10.654s] [ 80%] Built target gtest_main
+[10.671s] [ 85%] [32mBuilding CXX object src/CMakeFiles/UNIT_LiftDragModel_TEST.dir/LiftDragModel_TEST.cc.o[0m
+[10.724s] [ 90%] [32m[1mLinking CXX shared library ../../../lib/libasv_sim2-anemometer-system.so[0m
+[10.913s] [ 90%] Built target asv_sim2-anemometer-system
+[12.155s] [ 95%] [32m[1mLinking CXX executable ../bin/UNIT_LiftDragModel_TEST[0m
+[12.244s] [ 95%] Built target UNIT_LiftDragModel_TEST
+[13.752s] [100%] [32m[1mLinking CXX shared library ../../../lib/libasv_sim2-mooring-system.so[0m
+[14.096s] [100%] Built target asv_sim2-mooring-system
+[14.119s] Invoked command in '/home/blueboat_sitl/gz_ws/build/asv_sim2' returned '0': /usr/bin/cmake --build /home/blueboat_sitl/gz_ws/build/asv_sim2 -- -j32 -l32
+[14.127s] Invoking command in '/home/blueboat_sitl/gz_ws/build/asv_sim2': /usr/bin/cmake --install /home/blueboat_sitl/gz_ws/build/asv_sim2
+[14.136s] -- Install configuration: "RelWithDebInfo"
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-all/asv_sim2-all-config.cmake
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-all/asv_sim2-all-config-version.cmake
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-all/asv_sim2-all-targets.cmake
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/detail/Export.hh
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/Export.hh
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2.so.2.0.0
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2.so.2
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2.so
+[14.136s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-config.cmake
+[14.137s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-config-version.cmake
+[14.137s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-targets.cmake
+[14.137s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-targets-relwithdebinfo.cmake
+[14.137s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2.pc
+[14.138s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/anemometer-system/detail/Export.hh
+[14.138s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/anemometer-system/Export.hh
+[14.138s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-anemometer-system.so.2.0.0
+[14.141s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-anemometer-system.so.2
+[14.141s] -- Set runtime path of "/home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-anemometer-system.so.2.0.0" to ""
+[14.141s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-anemometer-system.so
+[14.141s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-config.cmake
+[14.141s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-config-version.cmake
+[14.141s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-targets.cmake
+[14.142s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-targets-relwithdebinfo.cmake
+[14.142s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-anemometer-system.pc
+[14.142s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/foil-lift-drag-system/detail/Export.hh
+[14.142s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/foil-lift-drag-system/Export.hh
+[14.142s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-foil-lift-drag-system.so.2.0.0
+[14.144s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-foil-lift-drag-system.so.2
+[14.144s] -- Set runtime path of "/home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-foil-lift-drag-system.so.2.0.0" to ""
+[14.144s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-foil-lift-drag-system.so
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-config.cmake
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-config-version.cmake
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-targets.cmake
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-targets-relwithdebinfo.cmake
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-foil-lift-drag-system.pc
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/mooring-system/detail/Export.hh
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/mooring-system/Export.hh
+[14.145s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-mooring-system.so.2.0.0
+[14.156s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-mooring-system.so.2
+[14.156s] -- Set runtime path of "/home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-mooring-system.so.2.0.0" to ""
+[14.156s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-mooring-system.so
+[14.156s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-config.cmake
+[14.156s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-config-version.cmake
+[14.157s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-targets.cmake
+[14.157s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-targets-relwithdebinfo.cmake
+[14.157s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-mooring-system.pc
+[14.157s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-lift-drag-system/detail/Export.hh
+[14.157s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-lift-drag-system/Export.hh
+[14.157s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-lift-drag-system.so.2.0.0
+[14.160s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-lift-drag-system.so.2
+[14.160s] -- Set runtime path of "/home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-lift-drag-system.so.2.0.0" to ""
+[14.160s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-lift-drag-system.so
+[14.160s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-config.cmake
+[14.160s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-config-version.cmake
+[14.160s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-targets.cmake
+[14.160s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-targets-relwithdebinfo.cmake
+[14.160s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-sail-lift-drag-system.pc
+[14.161s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-position-controller-system/detail/Export.hh
+[14.161s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-position-controller-system/Export.hh
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-position-controller-system.so.2.0.0
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-position-controller-system.so.2
+[14.167s] -- Set runtime path of "/home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-position-controller-system.so.2.0.0" to ""
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-position-controller-system.so
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-config.cmake
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-config-version.cmake
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-targets.cmake
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-targets-relwithdebinfo.cmake
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-sail-position-controller-system.pc
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/wind-system/detail/Export.hh
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/wind-system/Export.hh
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-wind-system.so.2.0.0
+[14.167s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-wind-system.so.2
+[14.168s] -- Set runtime path of "/home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-wind-system.so.2.0.0" to ""
+[14.168s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-wind-system.so
+[14.168s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-config.cmake
+[14.168s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-config-version.cmake
+[14.168s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-targets.cmake
+[14.168s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-targets-relwithdebinfo.cmake
+[14.168s] -- Installing: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-wind-system.pc
+[14.168s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/LiftDragModel.hh
+[14.169s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/PluginUtils.hh
+[14.169s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/Utilities.hh
+[14.169s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim.hh
+[14.169s] -- Installing: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/config.hh
+[14.174s] Invoked command in '/home/blueboat_sitl/gz_ws/build/asv_sim2' returned '0': /usr/bin/cmake --install /home/blueboat_sitl/gz_ws/build/asv_sim2

@@ -1,0 +1,6 @@
+Invoking command in '/home/blueboat_sitl/gz_ws/build/gz-waves1': /usr/bin/cmake /home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_INSTALL_PREFIX=/home/blueboat_sitl/gz_ws/install
+Invoked command in '/home/blueboat_sitl/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake /home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_INSTALL_PREFIX=/home/blueboat_sitl/gz_ws/install
+Invoking command in '/home/blueboat_sitl/gz_ws/build/gz-waves1': /usr/bin/cmake --build /home/blueboat_sitl/gz_ws/build/gz-waves1 -- -j32 -l32
+Invoked command in '/home/blueboat_sitl/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake --build /home/blueboat_sitl/gz_ws/build/gz-waves1 -- -j32 -l32
+Invoking command in '/home/blueboat_sitl/gz_ws/build/gz-waves1': /usr/bin/cmake --install /home/blueboat_sitl/gz_ws/build/gz-waves1
+Invoked command in '/home/blueboat_sitl/gz_ws/build/gz-waves1' returned '0': /usr/bin/cmake --install /home/blueboat_sitl/gz_ws/build/gz-waves1

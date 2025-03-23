@@ -1,0 +1,1 @@
+/home/blueboat_sitl/gz_ws/src/move_blueboat/launch/manual_control_boat_sim.launch.py

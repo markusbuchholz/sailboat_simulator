@@ -1,0 +1,328 @@
+[33mCMake Warning at /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake:92 (message):
+  CGAL_DATA_DIR cannot be deduced, set the variable CGAL_DATA_DIR to set the
+  default value of CGAL::data_file_path()
+Call Stack (most recent call first):
+  CMakeLists.txt:168 (find_package)
+
+[0m
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRandomFFTWaveSimulationRef.cc:40[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:24[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:[m[K In member function ‘[01m[Kvirtual void gz::waves::LinearRandomWaveSimulation::SetSteepness(double)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:494:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  494 | void LinearRandomWaveSimulation::SetSteepness([01;35m[Kdouble value[m[K)
+      |                                               [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::Pressure(double, double, double, double&)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  187 |     [01;35m[Kdouble x[m[K, double y, double z,
+      |     [01;35m[K~~~~~~~^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  187 |     double x, [01;35m[Kdouble y[m[K, double z,
+      |               [01;35m[K~~~~~~~^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  187 |     double x, double y, [01;35m[Kdouble z[m[K,
+      |                         [01;35m[K~~~~~~~^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:188:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  188 |     [01;35m[Kdouble &pressure[m[K)
+      |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::Pressure(const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, Eigen::Ref<Eigen::Array<double, -1, 1> >)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:196:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  196 |     [01;35m[Kconst Eigen::Ref<const Eigen::ArrayXd>& x[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:197:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  197 |     [01;35m[Kconst Eigen::Ref<const Eigen::ArrayXd>& y[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:198:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 |     [01;35m[Kconst Eigen::Ref<const Eigen::ArrayXd>& z[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:199:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  199 |     [01;35m[KEigen::Ref<Eigen::ArrayXd> pressure[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::ElevationAt(gz::waves::Index, gz::waves::Index, double&)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:377:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  377 |     [01;35m[KIndex ix[m[K, Index iy,
+      |     [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:377:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  377 |     Index ix, [01;35m[KIndex iy[m[K,
+      |               [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:378:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  378 |     [01;35m[Kdouble &h[m[K)
+      |     [01;35m[K~~~~~~~~^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::DisplacementAt(gz::waves::Index, gz::waves::Index, double&, double&)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:386:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  386 |     [01;35m[KIndex ix[m[K, Index iy,
+      |     [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:386:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  386 |     Index ix, [01;35m[KIndex iy[m[K,
+      |               [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:387:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  387 |     [01;35m[Kdouble& sx[m[K, double& sy)
+      |     [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:387:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  387 |     double& sx, [01;35m[Kdouble& sy[m[K)
+      |                 [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::PressureAt(gz::waves::Index, gz::waves::Index, gz::waves::Index, double&)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  395 |     [01;35m[KIndex ix[m[K, Index iy, Index iz,
+      |     [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  395 |     Index ix, [01;35m[KIndex iy[m[K, Index iz,
+      |               [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  395 |     Index ix, Index iy, [01;35m[KIndex iz[m[K,
+      |                         [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:396:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  396 |     [01;35m[Kdouble &pressure[m[K)
+      |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::PressureAt(gz::waves::Index, Eigen::Ref<Eigen::Array<double, -1, -1> >)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:404:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  404 |     [01;35m[KIndex iz[m[K,
+      |     [01;35m[K~~~~~~^~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:405:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  405 |     [01;35m[KEigen::Ref<Eigen::ArrayXXd> pressure[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRandomFFTWaveSimulation.cc:28[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/OceanTile.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/Physics.cc:31[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/Grid.cc:28[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRegularWaveSimulation.cc:[m[K In member function ‘[01m[Kvirtual void gz::waves::LinearRegularWaveSimulation::SetSteepness(double)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRegularWaveSimulation.cc:581:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  581 | void LinearRegularWaveSimulation::SetSteepness([01;35m[Kdouble value[m[K)
+      |                                                [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/MeshTools.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/Utilities.cc:22[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/WavefieldSampler.cc:25[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/WaveParameters.cc:23[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/Wavefield.cc:27[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_GnuPlotExample.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_GnuPlotExample.cc:30:18:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+   30 |       [01;35m[Kstd::system(s.c_str())[m[K;
+      |       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_LinearRandomFFTWaves.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_LinearRandomFFTWaves.cc:39:18:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+   39 |       [01;35m[Kstd::system(s.c_str())[m[K;
+      |       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_WaveSpectrum.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_WaveSpectrum.cc:50:18:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+   50 |       [01;35m[Kstd::system(s.c_str())[m[K;
+      |       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+                 from [01m[K/usr/include/OGRE-2.3/OgreItem.h:31[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/dynamic/DynamicGeometry.cc:43[m[K:
+[01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+      |                                                                                                      [01;36m[K^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_LinearRegularWaves.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_LinearRegularWaves.cc:39:18:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+   39 |       [01;35m[Kstd::system(s.c_str())[m[K;
+      |       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_LinearRandomWaves.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/test/plots/PLOT_LinearRandomWaves.cc:39:18:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+   39 |       [01;35m[Kstd::system(s.c_str())[m[K;
+      |       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/MeshTools_TEST.cc:21[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+[01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtensionManager.cc:463:13:[m[K [01;35m[Kwarning: [m[K'GZ_RENDERING_ENGINE_INSTALL_DIR' macro is deprecated, use gz::rendering::getEngineInstallDir() function instead. 
+  463 |   systemPath[01;35m[Ks.AddPluginPaths({GZ_RENDERING_ENGINE_INSTALL_DIR});[m[K
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/Physics_TEST.cc:23[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/LinearRegularWaveSimulation_TEST.cc:24[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/Geometry_TEST.cc:25[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtensionManager.cc:44[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/CGAL_TEST.cc:48[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/hydrodynamics/Hydrodynamics.cc:54[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanGeometry.cc:18[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+                 from [01m[K/usr/include/OGRE-2.3/Hlms/Pbs/OgreHlmsPbsPrerequisites.h:31[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Material.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanGeometry.cc:19[m[K:
+[01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+      |                                                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+                 from [01m[K/usr/include/OGRE-2.3/OgrePixelFormatGpu.h:31[m[K,
+                 from [01m[K/usr/include/OGRE-2.3/OgreHlmsPso.h:31[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DynamicMesh.hh:52[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DynamicMesh.cc:35[m[K:
+[01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+      |                                                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+                 from [01m[K/usr/include/OGRE-2.3/Ogre.h:31[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Includes.hh:32[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2BoundingBoxCamera.hh:32[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2.hh:25[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.hh:28[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.cc:16[m[K:
+[01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+      |                                                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2RenderEngineExtension.hh:31[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2RenderEngineExtension.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.hh:25[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.cc:16[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/WavesVisual.cc:74[m[K:
+[01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+      |                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+                 from [01m[K/usr/include/OGRE-2.3/Hlms/Pbs/OgreHlmsPbsPrerequisites.h:31[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Material.hh:29[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.cc:20[m[K:
+[01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+      |                                                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+                 from [01m[K/usr/include/OGRE-2.3/Ogre.h:31[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Includes.hh:32[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2BoundingBoxCamera.hh:32[m[K,
+                 from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2.hh:25[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.hh:28[m[K,
+                 from [01m[K/home/blueboat_sitl/gz_ws/src/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.cc:25[m[K:
+[01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+      |                                                                                                      [01;36m[K^[m[K

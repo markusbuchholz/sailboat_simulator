@@ -1,0 +1,1 @@
+/home/blueboat_sitl/gz_ws/build/move_blueboat/launch/launch_mission_simulation.launch.py

@@ -1,0 +1,1 @@
+/home/blueboat_sitl/gz_ws/build/move_blueboat/launch/wavetank_launch_mission_simulation.launch.py

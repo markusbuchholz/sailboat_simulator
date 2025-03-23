@@ -1,0 +1,103 @@
+[0.010s] Invoking command in '/home/blueboat_sitl/gz_ws/build/asv_sim2': /usr/bin/cmake --build /home/blueboat_sitl/gz_ws/build/asv_sim2 -- -j32 -l32
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target asv_sim2[0m
+[0.042s] [  9%] Built target gtest
+[0.045s] [ 23%] Built target asv_sim2
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target asv_sim2-foil-lift-drag-system[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target asv_sim2-mooring-system[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target asv_sim2-sail-lift-drag-system[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target asv_sim2-anemometer-system[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target asv_sim2-sail-position-controller-system[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target asv_sim2-wind-system[0m
+[0.054s] [ 33%] Built target gtest_main
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target UNIT_LiftDragModel_TEST[0m
+[0.064s] [ 52%] Built target asv_sim2-foil-lift-drag-system
+[0.064s] [ 52%] Built target asv_sim2-sail-lift-drag-system
+[0.065s] [ 61%] Built target asv_sim2-mooring-system
+[0.065s] [ 71%] Built target asv_sim2-sail-position-controller-system
+[0.067s] [ 80%] Built target asv_sim2-wind-system
+[0.067s] [ 90%] Built target asv_sim2-anemometer-system
+[0.070s] [100%] Built target UNIT_LiftDragModel_TEST
+[0.137s] Invoked command in '/home/blueboat_sitl/gz_ws/build/asv_sim2' returned '0': /usr/bin/cmake --build /home/blueboat_sitl/gz_ws/build/asv_sim2 -- -j32 -l32
+[0.144s] Invoking command in '/home/blueboat_sitl/gz_ws/build/asv_sim2': /usr/bin/cmake --install /home/blueboat_sitl/gz_ws/build/asv_sim2
+[0.148s] -- Install configuration: "RelWithDebInfo"
+[0.148s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-all/asv_sim2-all-config.cmake
+[0.148s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-all/asv_sim2-all-config-version.cmake
+[0.148s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-all/asv_sim2-all-targets.cmake
+[0.148s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/detail/Export.hh
+[0.148s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/Export.hh
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2.so.2.0.0
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2.so.2
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2.so
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-config.cmake
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-config-version.cmake
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-targets.cmake
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2/asv_sim2-targets-relwithdebinfo.cmake
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2.pc
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/anemometer-system/detail/Export.hh
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/anemometer-system/Export.hh
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-anemometer-system.so.2.0.0
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-anemometer-system.so.2
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-anemometer-system.so
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-config.cmake
+[0.149s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-config-version.cmake
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-targets.cmake
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-anemometer-system/asv_sim2-anemometer-system-targets-relwithdebinfo.cmake
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-anemometer-system.pc
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/foil-lift-drag-system/detail/Export.hh
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/foil-lift-drag-system/Export.hh
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-foil-lift-drag-system.so.2.0.0
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-foil-lift-drag-system.so.2
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-foil-lift-drag-system.so
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-config.cmake
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-config-version.cmake
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-targets.cmake
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-foil-lift-drag-system/asv_sim2-foil-lift-drag-system-targets-relwithdebinfo.cmake
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-foil-lift-drag-system.pc
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/mooring-system/detail/Export.hh
+[0.150s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/mooring-system/Export.hh
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-mooring-system.so.2.0.0
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-mooring-system.so.2
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-mooring-system.so
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-config.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-config-version.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-targets.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-mooring-system/asv_sim2-mooring-system-targets-relwithdebinfo.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-mooring-system.pc
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-lift-drag-system/detail/Export.hh
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-lift-drag-system/Export.hh
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-lift-drag-system.so.2.0.0
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-lift-drag-system.so.2
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-lift-drag-system.so
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-config.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-config-version.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-targets.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-lift-drag-system/asv_sim2-sail-lift-drag-system-targets-relwithdebinfo.cmake
+[0.151s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-sail-lift-drag-system.pc
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-position-controller-system/detail/Export.hh
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/sail-position-controller-system/Export.hh
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-position-controller-system.so.2.0.0
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-position-controller-system.so.2
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-sail-position-controller-system.so
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-config.cmake
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-config-version.cmake
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-targets.cmake
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-sail-position-controller-system/asv_sim2-sail-position-controller-system-targets-relwithdebinfo.cmake
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-sail-position-controller-system.pc
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/wind-system/detail/Export.hh
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/wind-system/Export.hh
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-wind-system.so.2.0.0
+[0.152s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-wind-system.so.2
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/libasv_sim2-wind-system.so
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-config.cmake
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-config-version.cmake
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-targets.cmake
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/cmake/asv_sim2-wind-system/asv_sim2-wind-system-targets-relwithdebinfo.cmake
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/lib/pkgconfig/asv_sim2-wind-system.pc
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/LiftDragModel.hh
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/PluginUtils.hh
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/Utilities.hh
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim.hh
+[0.153s] -- Up-to-date: /home/blueboat_sitl/gz_ws/install/include/gz/asv_sim2/gz/asv_sim/config.hh
+[0.154s] Invoked command in '/home/blueboat_sitl/gz_ws/build/asv_sim2' returned '0': /usr/bin/cmake --install /home/blueboat_sitl/gz_ws/build/asv_sim2
