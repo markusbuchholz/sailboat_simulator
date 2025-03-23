@@ -63,7 +63,7 @@ source gazebo_exports.sh
 
 
 ```bash
-ros2 ros2 launch move_blueboat mission_rs750.launch.py
+ros2 launch move_blueboat mission_rs750.launch.py
 ```
 
 ## Start SITL
@@ -72,8 +72,6 @@ ros2 ros2 launch move_blueboat mission_rs750.launch.py
 cd ../ardupilot
 sim_vehicle.py -v Rover -f sailboat --model JSON --map --console -l 55.99541530863445,-3.3010225004910683,0,0
 ```
-
-
 
 
 ## ROS 2
