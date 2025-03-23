@@ -1,9 +1,8 @@
 # Sailboat Simulator
 
-The Following repository provides the simulator of Sailboat RS750 in the GazeboSim simulator.<br>
+The following repository provides the simulator of Sailboat RS750 in the GazeboSim simulator.<br>
 The simulator has been built based on the packages: [asv_sim](https://github.com/srmainwaring/asv_sim), [asv_wave_sim](https://github.com/srmainwaring/asv_wave_sim) and [rs750](https://github.com/srmainwaring/rs750).<br>
-The repository provides a consistent Docker environment with GazeoSim, Arduopilot (SITL). <br>
-SITL allows you to simulate the vehicle hardware and firmware ([ArduSub](https://www.ardusub.com/) ) on your host directly.<br>
+The repository provides a consistent Docker environment with GazeboSim, Ardupilot (SITL). SITL allows you to simulate the vehicle hardware and firmware ([ArduSub](https://www.ardusub.com/) ) on your host directly.<br>
 
 ![image](https://github.com/user-attachments/assets/2ce6fac6-3691-49eb-a9a2-d0b390212459)
 
