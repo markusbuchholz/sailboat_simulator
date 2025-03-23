@@ -78,6 +78,8 @@ sim_vehicle.py -v Rover -f sailboat --model JSON --map --console -l 55.995415308
 
 In ROS 2 use the following commands (from GazeboSim launch ```Wave Control plugin```),
 
+The following publishers provide the possibility to change the position of ```main sail```, ```fore sail```, and ```rudder```.
+
 ```bash
 ros2 topic pub /main_sail_joint/cmd_pos std_msgs/msg/Float64 "{data: -5.0}"
 ros2 topic pub /fore_sail_joint/cmd_pos std_msgs/msg/Float64 "{data: 2.0}"
