@@ -24,7 +24,7 @@ Expected results, <br>
 ## Build
 
 ```bash
-git clone https://github.com/markusbuchholz/gazebosim_bluerov2_ardupilot_sitl.git
+git clone https://github.com/markusbuchholz/sailboat_simulator.git
 
 cd gazebosim_bluerov2_ardupilot_sitl/bluerov2_ardupilot_SITL/docker
 
@@ -37,8 +37,8 @@ sudo ./build.sh
 Adjust in ```run.sh```.
 
 ```bash
-local_gz_ws="/home/markus/bluerov2_ardupilot_SITL/gz_ws"
-local_SITL_Models="/home/markus/bluerov2_ardupilot_SITL/SITL_Models"
+local_gz_ws="/home/markus/sailboat_simulator/gz_ws"
+local_SITL_Models="/home/markus/sailboat_simulator/SITL_Models"
 ```
 
 ```bash
@@ -58,6 +58,24 @@ source gazebo_exports.sh
  
 ```
 ---
+
+
+## Launch RS-750
+
+
+```bash
+ros2 ros2 launch move_blueboat mission_rs750.launch.py
+```
+
+## Start SITL
+
+```bash
+cd ../ardupilot
+sim_vehicle.py -v Rover -f sailboat --model JSON --map --console -l 55.99541530863445,-3.3010225004910683,0,0
+```
+
+
+
 
 ## ROS 2
 
