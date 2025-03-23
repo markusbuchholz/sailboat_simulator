@@ -26,7 +26,7 @@ Expected results, <br>
 ```bash
 git clone https://github.com/markusbuchholz/sailboat_simulator.git
 
-cd gazebosim_bluerov2_ardupilot_sitl/bluerov2_ardupilot_SITL/docker
+cd sailboat_simulator/bluerov2_ardupilot_SITL/docker
 
 sudo ./build.sh
 
