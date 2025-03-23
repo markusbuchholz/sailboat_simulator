@@ -60,7 +60,7 @@ source gazebo_exports.sh
 ---
 
 
-## Launch RS-750
+## Launch Sailboat
 
 
 ```bash
